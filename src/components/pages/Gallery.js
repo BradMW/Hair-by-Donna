@@ -18,46 +18,65 @@ const styles = {
 
 const hairStyleInfo = [
     {
-        // name: "In The Loop",
-        // description: "The third group project I worked on. This is a workbook designed for mobile devices. In the loop help users learn how to use for loops.",
-        imgName: "in-the-loop",
-        altTxt: "This is a screen shot of the login page.",
-        // link: "https://intheloop-app.herokuapp.com/"
+        imgName: "blonde-pink-tips",
+        altTxt: "Picture of a girl with short rounded blonde hair with pink tips."
     },
     {
-        // name: "Leverage",
-        // description: "This is the second project I worked on. This is a fitness tracker that helps users keep track of the workouts they have done. ",
-        imgName: "leverage",
-        altTxt: "this is the overview page that displays the workouts and days of the week.",
-        // link: "https://leveragewo.herokuapp.com/"
+       imgName: "blonde-spikes",
+        altTxt: "Picture of a guy with short dark blonde spikey hair."
     },
     {
-        // name: "FanJam",
-        // description: "This is the first project I worked on. FanJam is an app that lets you search up your favorite artist and see the lyrics to their songs as well as see any upcoming events featuring them!",
-        imgName: "fanjam",
-        altTxt: "This is a screen shot of the FanJam home page.",
-        // link: "https://bradmw.github.io/FanJam-Project-1/"
+        imgName: "brown-purple",
+        altTxt: "Picture of a girl with light brown hair with streakes of light purple highlights."
     },
     {
-        // name: "PWA Budget Tracker",
-        // description: "This is one of the homeworks I worked on in my full stack class. This budget tracker has offline functionality so you can keep track of purchases even with no internet.",
-        imgName: "pwa-budget",
-        altTxt: "This is the landing page for the budget tracker.",
-        // link: "https://pwa-budget-tracker-bo.herokuapp.com/"
+        imgName: "brown-purple-2",
+        altTxt: "Picture of a girl with light brown hair with streakes of light purple highlights."
     },
     {
-        // name: "Team Profile Generator",
-        // description: "This app allows you to create cards for your employees. When you create a new employee you can choose their role and add their email as well as their GitHub link.",
-        imgName: "team-profile",
-        altTxt: "This is an overview page displaying what the employee cards will look like together.",
-        // link: "https://bradmw.github.io/HW-Team-Profile-Gen-BO/"
+       imgName: "curly-red-purple",
+        altTxt: "Picture of longer curly hair with reds, pinks, purples, and blues swirled together."
     },
     {
-        // name: "ORM E-commerce backend",
-        // description: "This app uses SQL and allows users to list items as well as delete them off the store page.",
-        imgName: "orm-back",
-        altTxt: "This is a screenshot of the backend running",
-        // link: "https://drive.google.com/file/d/1jSH02Vy_bd_ZFho6GUi71A3-0BOQiAsq/view"
+       imgName: "long-blonde-black",
+        altTxt: "Picture of a girl with long blonde hair that fades into black."
+    },
+    {
+       imgName: "long-blonde-purple-tips",
+        altTxt: "Picture of a girl with blonde hair that has purple hair underneath."
+    },
+    {
+        imgName: "long-cyan-blonde",
+         altTxt: "Picture of a girl with shoulder length hair that is a light blue/ cyan color with blonde roots."
+    },
+    {
+        imgName: "red-brown-curls",
+         altTxt: "Picture of a girl with curly shoulder length blonde hair with dark red highlights."
+    },
+    {
+        imgName: "short-reddish-brown",
+         altTxt: "Picture of a girl with short blonde hair that dark red highlights."
+    },
+    {
+        imgName: "reddish-brown-2",
+         altTxt: "Picture of a girl with short blonde hair that dark red highlights."
+    },
+    {
+        imgName: "short-clean-amber",
+         altTxt: "Picture of a girl short rounded blonde hair with dark red highlights."
+    },
+    {
+        imgName: "short-purple-turquoise",
+         altTxt: "Picture of a girl with short hair that is purple on the right side and turquoise on the left side."
+    },
+    
+    {
+        imgName: "silver-top",
+         altTxt: "Picture of a short black hair with silver hair spiked back on top."
+    },
+    {
+        imgName: "silver-top-2",
+         altTxt: "Picture of a short black hair with silver hair spiked back on top."
     }
 ]
 
