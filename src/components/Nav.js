@@ -6,14 +6,15 @@ const styles = {
     flexWrap: "wrap",
     justifyContent: "space-evenly",
     alignItems: "center",
-    fontSize: "20px",
-    backgroundColor: "#35478C",
+    fontSize: "25px",
+    backgroundColor: "#BF657D",
     position: "fixed",
     width: "100%",
+    height: "6rem",
     zIndex: "1"
   },
   tabsTxt: {
-    color: "#ADD5F7"
+    color: "#023059"
   }
 }
 
