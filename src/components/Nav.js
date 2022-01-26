@@ -7,14 +7,14 @@ const styles = {
     justifyContent: "space-evenly",
     alignItems: "center",
     fontSize: "25px",
-    backgroundColor: "#BF657D",
+    backgroundColor: "#2198A6",
     position: "fixed",
     width: "100%",
     height: "6rem",
     zIndex: "1"
   },
   tabsTxt: {
-    color: "#023059"
+    color: "#F2F2F2"
   }
 }
 

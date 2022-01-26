@@ -7,7 +7,7 @@ const styles = {
         justifyContent: "space-around",
         paddingTop: "10px",
         paddingBottom: "10px",
-        background: "#35478C",
+        background: "#2198A6",
         textAlign: "center",
         textDecoration: "none"
     },
@@ -15,6 +15,7 @@ const styles = {
         padding: "2px",
         display: "inline",
         fontSize: "20px",
+        color: "#F2F2F2"
     }
 }
 

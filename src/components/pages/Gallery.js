@@ -6,17 +6,17 @@ const styles = {
         justifyContent: "center",
         display: "inline-flex",
         flexWrap: "wrap",
-        backgroundColor: "#F2D0E3"
+        backgroundColor: "#0D0D0D"
     },
     images: {
         maxWidth: '30rem',
         maxHeight: '40rem',
         // minHeight: '40rem',
         borderRadius: '20px 20px 20px 20px',
-        boxShadow: "0px 0px 24px 2px #BF657D",
+        boxShadow: "0px 0px 24px 2px #737373",
         padding: "10px",
         margin: "1rem",
-        backgroundColor: "#023059"
+        backgroundColor: "#BFBFBF"
     }
 }
 
