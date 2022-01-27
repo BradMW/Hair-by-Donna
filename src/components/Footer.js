@@ -8,9 +8,9 @@ const styles = {
         paddingTop: "10px",
         paddingBottom: "10px",
         background: "#BFBFBF",
-        textAlign: "center",
         textDecoration: "none",
-        height: "2rem"
+        height: "2rem",
+       
     },
     li: {
         padding: "6px",
@@ -29,9 +29,9 @@ export default function Footer() {
         <div>
             <ul style={styles.footer}>
                 {/* <li style={styles.li}>555-555-5555</li> */}
-                <li style={styles.li}><a href="#">bodell94@yahoo.com</a></li>
-                <li style={styles.li}><a href="https://github.com/BradMW" rel="noreferrer">GitHub</a></li>
-                <li style={styles.li}><a href="https://www.linkedin.com/in/bradley-o-dell-b3857b96/" rel="noreferrer">Linkdin</a></li>
+                <li style={styles.li}><a href="#">sizzorbuny@gmail.com</a></li>
+                <li style={styles.li}><a href="" rel="noreferrer">FaceBook (coming soon!)</a></li>
+                <li style={styles.li}><a href="" rel="noreferrer">Insta (coming soon!)</a></li>
             </ul>
   </div>
 ) 
