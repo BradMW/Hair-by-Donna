@@ -7,15 +7,15 @@ const styles = {
         display: "inline-flex",
         flexWrap: "wrap",
         backgroundColor: "#0D0D0D"
+        
     },
     images: {
         maxWidth: '30rem',
         maxHeight: '40rem',
-        // minHeight: '40rem',
         borderRadius: '20px 20px 20px 20px',
         boxShadow: "0px 0px 24px 2px #737373",
         padding: "10px",
-        margin: "1rem",
+        margin: "2rem",
         backgroundColor: "#BFBFBF"
     }
 }
@@ -87,16 +87,16 @@ const hairStyleInfo = [
     }
 ]
 
-export default function Projects() {
+export default function Gallery() {
 
     
     return (
         <div style={styles.card}>
-        {hairStyleInfo.map((project, i) => (
+        {hairStyleInfo.map((hairStyleInfo, i) => (
             <div className="card" key={i}>
                 <div className= "imgs" >
-               <a href={project.link} target="_blank" rel="noreferrer">
-                <img style={styles.images} src={require(`../../images/${project.imgName}.jpg`).default} className="card-img-top" alt={project.altTxt}/>
+               <a href={hairStyleInfo.link} target="_blank" rel="noreferrer">
+                <img style={styles.images} src={require(`../../images/${hairStyleInfo.imgName}.jpg`).default} className="card-img-top" alt={hairStyleInfo.altTxt}/>
                </a>
                 </div>
             </div>

@@ -18,7 +18,7 @@ const styles = {
     }
 }
 
-export default function About() {
+export default function Services() {
 
     return(
         <div style={styles.img}>

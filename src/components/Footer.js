@@ -7,15 +7,19 @@ const styles = {
         justifyContent: "space-around",
         paddingTop: "10px",
         paddingBottom: "10px",
-        background: "#2198A6",
+        background: "#BFBFBF",
         textAlign: "center",
-        textDecoration: "none"
+        textDecoration: "none",
+        height: "2rem"
     },
     li: {
-        padding: "2px",
+        padding: "6px",
         display: "inline",
         fontSize: "20px",
-        color: "#F2F2F2"
+        color: "#F2F2F2",
+        borderRadius: '10px 10px 10px 10px',
+        // boxShadow: "0px 0px 24px 2px #737373",
+        backgroundColor: "#0D0D0D"
     }
 }
 

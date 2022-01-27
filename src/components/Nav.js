@@ -11,7 +11,10 @@ const styles = {
     position: "fixed",
     width: "100%",
     height: "6rem",
-    zIndex: "1"
+    zIndex: "1",
+    top: "0",
+    left: "0px",
+    right: "0px"
   },
   tabsTxt: {
     color: "#F2F2F2"
