@@ -29,7 +29,7 @@ export default function Footer() {
         <div>
             <ul style={styles.footer}>
                 {/* <li style={styles.li}>555-555-5555</li> */}
-                <li style={styles.li}><a href="#">sizzorbuny@gmail.com</a></li>
+                <li style={styles.li}><a href="">sizzorbuny@gmail.com</a></li>
                 <li style={styles.li}><a href="" rel="noreferrer">FaceBook (coming soon!)</a></li>
                 <li style={styles.li}><a href="" rel="noreferrer">Insta (coming soon!)</a></li>
             </ul>
