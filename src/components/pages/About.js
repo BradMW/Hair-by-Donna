@@ -33,9 +33,6 @@ const styles = {
         paddingRight: "20rem",
         paddingTop: "15rem",
         textShadow: "10px, 10px, blue"
-        
-
-        // textIndent: "10mm"
     }
 }
 
