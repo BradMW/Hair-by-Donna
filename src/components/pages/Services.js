@@ -1,27 +1,19 @@
 import React from "react";
 
 const styles = {
-    img: {
-        padding: "50px",
-        justifyContent: "center",
-        backgroundColor: "#ADD5F7",
-        display: "grid",
-        gridRow: "2/3",
-        gridColumn: "2/3"
+    div: {
+      height: "100%",
+      width: "100%",
+      marginTop: "120px"
        
     },
-    description: {
-        background: '#16193B',
-        fontSize: '1rem',
-        color: 'white',
-        padding: '5px'
-    }
+    
 }
 
 export default function Services() {
 
     return(
-        <div>
+        <div style={styles.div}>
             <ul className="list-group">
   <li className="list-group-item d-flex justify-content-between align-items-center">
     A list item

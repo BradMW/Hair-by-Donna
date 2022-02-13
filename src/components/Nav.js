@@ -3,6 +3,7 @@ import React from 'react';
 const styles = {
   tabs: {
     display: "flex",
+    margin: "0",
     flexWrap: "wrap",
     justifyContent: "space-evenly",
     alignItems: "center",
@@ -12,7 +13,8 @@ const styles = {
     width: "100%",
     height: "6rem",
     top: "0",
-    zIndex: "1"
+    zIndex: "1",
+    listStyle: "none"
   },
   tabsTxt: {
     color: "#F2F2F2",

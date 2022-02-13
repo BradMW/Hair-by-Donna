@@ -20,7 +20,6 @@ export default function PortfolioContainer() {
     if (currentPage === 'Locations') {
       return <Locations />;
     }
-    return <Contact />;
     if (currentPage === 'Contact') {
         return <Contact />;
       }

@@ -10,6 +10,7 @@ const styles = {
         background: "#BFBFBF",
         textDecoration: "none",
         height: "2rem",
+        margin: "0"
        
     },
     li: {
