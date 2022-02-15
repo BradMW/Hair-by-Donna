@@ -3,6 +3,7 @@ import React from 'react';
 const styles = {
     card: {
         padding: "50px",
+        marginTop: "30px",
         justifyContent: "center",
         display: "inline-flex",
         flexWrap: "wrap",
