@@ -5,7 +5,7 @@ const styles = {
       height: "100%",
       width: "100%",
       marginTop: "120px"
-       
+      
     },
     img: {
       width: "80%",

@@ -2,23 +2,33 @@ import React from "react";
 
 const styles = {
     cardBody: {
-        justifyContent: "center",
+        justifyContent: "left",
         display: "inline-flex",
         flexWrap: "wrap",
         backgroundColor: "#0D0D0D",
         color: "white",
-        width: "100%"
+        width: "100%",
+        paddingLeft: "25px"
     },
     img: {
         width: "100%",
         marginTop: "120px",
+        marginBottom: "30px",
         borderRadius: '20px 20px 20px 20px',
         boxShadow: "0px 0px 24px 2px #737373",
         padding: "10px",
         backgroundColor: "#BFBFBF"
     },
     description: {
-     
+        justifyContent: "right",
+        display: "inline-flex",
+        flexWrap: "wrap",
+        color: "white",
+        marginTop: "120px",
+        fontSize: "20px",
+        paddingLeft: "50px",
+        gap: "10px",
+        
     }
 }
 
@@ -26,13 +36,17 @@ export default function Locations() {
 
     return(
     <div style={styles.cardBody} >
+        <div>
+
+        </div>
         <div className="card" style={{"width": "30rem"}}>
             <img style={styles.img} src={require(`../../images/donnaMap.JPG`).default}/>
-            <div className="card-body">
-          <p className="card-text">You can find your perfect hair style here at 3000 Joe Dimaggio Blvd, Suite 33, Round Rock, TX 78665.</p>
+            
+        </div> 
+            <div style={styles.description} className="card-body">
+          <p className="card-text">You can find your perfect hair style here at: 3000 Joe Dimaggio Blvd, Suite 33, Round Rock, TX 78665.</p>
           <p className="card-text">I also do appointments for seniors in home or at senior centers!</p>
             </div>
-        </div> 
     </div>
 ) 
 };
