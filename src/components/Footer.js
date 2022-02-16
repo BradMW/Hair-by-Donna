@@ -10,7 +10,8 @@ const styles = {
         background: "#BFBFBF",
         textDecoration: "none",
         height: "2rem",
-        margin: "0"
+        margin: "0",
+        
        
     },
     li: {
@@ -20,7 +21,8 @@ const styles = {
         color: "#F2F2F2",
         borderRadius: '10px 10px 10px 10px',
         // boxShadow: "0px 0px 24px 2px #737373",
-        backgroundColor: "#0D0D0D"
+        backgroundColor: "#2198A6",
+        
     }
 }
 

@@ -24,7 +24,7 @@ const styles = {
         fontSize: "20px",
         marginTop: "110px",
         color: "#F2F2F2",
-        paddingLeft: "20rem",
+        paddingLeft: "16rem",
         paddingTop: "8px"
     },
     txt: {
@@ -34,7 +34,7 @@ const styles = {
         // marginTop: "100px",
         color: "#F2F2F2",
         textAlign:"left",
-        paddingRight: "20rem",
+        paddingRight: "10px",
         paddingTop: "15rem",
         textShadow: "10px, 10px, blue"
     }

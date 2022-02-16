@@ -2,7 +2,7 @@ import React from "react";
 
 const styles = {
     cardBody: {
-        justifyContent: "left",
+        justifyContent: "center",
         display: "inline-flex",
         flexWrap: "wrap",
         backgroundColor: "#0D0D0D",
@@ -13,21 +13,23 @@ const styles = {
     img: {
         width: "100%",
         marginTop: "120px",
-        marginBottom: "30px",
+        marginBottom: "60px",
         borderRadius: '20px 20px 20px 20px',
         boxShadow: "0px 0px 24px 2px #737373",
         padding: "10px",
         backgroundColor: "#BFBFBF"
     },
     description: {
-        justifyContent: "right",
+        justifyContent: "center",
         display: "inline-flex",
         flexWrap: "wrap",
         color: "white",
         marginTop: "120px",
-        fontSize: "20px",
+        width: "30%",
+        fontSize: "25px",
         paddingLeft: "50px",
-        gap: "10px",
+        gap: "0px",
+        
         
     }
 }
