@@ -26,7 +26,7 @@ export default function Contact() {
     <div className="card mb-3" style={styles.card}>
   <div className="row g-0">
     <div className="col-md-4">
-    <img style={styles.img} src={require(`../../images/pexels-cottonbro-3992874.jpg`).default}/>
+    <img style={styles.img} src={require(`../../images/sunflower.jpg`).default}/>
     </div>
     <div className="col-md-8">
       <div className="card-body">
