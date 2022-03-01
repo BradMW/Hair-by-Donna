@@ -4,11 +4,11 @@ const styles = {
     div: {
       height: "100%",
       width: "100%",
-      marginTop: "90px",
+      marginTop: "96px",
       justifyContent: "space-evenly",
       display: "inline-flex",
       flexWrap: "wrap",
-      backgroundColor: "#0D0D0D"
+      backgroundColor: "#0D0D0D",
       
     },
     img: {
@@ -16,6 +16,10 @@ const styles = {
       justifyContent: "start",
       display: "inline-flex",
       flexWrap: "wrap",
+      // border: "solid gold",
+      borderRadius: '10px 10px 10px 10px',
+      backgroundColor: "#BFBFBF",
+      padding: "5px"
       
   },
     box: {
@@ -23,10 +27,10 @@ const styles = {
       boxShadow: "0px 0px 24px 2px #737373",
       padding: "10px",
       color: "white",
-      backgroundColor: "#BFBFBF",
+      backgroundColor: "#2198A6",
       margin: "10px",
-      textAlign: "center"
-      
+      textAlign: "center",
+      border: "solid"
     }
     
 }
