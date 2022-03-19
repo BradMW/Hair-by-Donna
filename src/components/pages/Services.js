@@ -4,14 +4,14 @@ const styles = {
     div: {
       height: "100%",
       width: "100%",
-      marginTop: "96px",
+      marginTop: "4.5%",
       justifyContent: "space-evenly",
       display: "inline-flex",
       flexWrap: "wrap",
       backgroundColor: "#0D0D0D",
       textDecoration: "none",
-      paddingTop: "50px",
-      paddingBottom: "50px",
+      paddingTop: "4%",
+      paddingBottom: "5%",
       
     },
     img: {
@@ -33,7 +33,10 @@ const styles = {
       backgroundColor: "#2198A6",
       margin: "10px",
       textAlign: "center",
-      border: "solid"
+      border: "solid",
+      fontFamily: "Courier New",
+      maxWidth: "100%",
+      minWidth: "auto"
     }
     
 }

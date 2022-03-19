@@ -19,7 +19,7 @@ const styles = {
   },
   tabsTxt: {
     color: "#F2F2F2",
-    textDecoration: "none"
+    textDecoration: "none",
   }
 }
 

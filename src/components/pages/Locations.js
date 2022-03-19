@@ -11,9 +11,10 @@ const styles = {
         paddingLeft: "0%"
     },
     img: {
-        width: "94%",
+        maxWidth: "100%",
+        minWidth: "auto",
         marginTop: "6%",
-        
+        marginBottom: "6%",
         borderRadius: '20px 20px 20px 20px',
         boxShadow: "0px 0px 24px 2px #737373",
         padding: "10px",
@@ -38,20 +39,24 @@ const styles = {
 export default function Locations() {
 
     return(
-    <div style={styles.cardBody} >
+        <div>
+<div style={styles.cardBody} >
         
     <div style={styles.description} className="card-body">
         <p className="card-text">You can find your perfect hair style here at: 3000 Joe Dimaggio Blvd, Suite 33, Round Rock, TX 78665.</p>
         <p className="card-text">I also do appointments for seniors in home or at senior centers!</p>
      </div>
+</div>
 
+<div style={styles.cardBody} >
         <div className="card" style={{"width": "30rem"}}>
             <img style={styles.img} src={require(`../../images/donnaMap.JPG`).default}/>
             <img style={styles.img} src={require(`../../images/donnaMap.JPG`).default}/>
             <img style={styles.img} src={require(`../../images/donnaMap.JPG`).default}/>
             
         </div> 
-            
-    </div>
+</div>            
+    
+        </div>
 ) 
 };

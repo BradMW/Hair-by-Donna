@@ -4,8 +4,8 @@ import { validateEmail } from '../../utils/helpers';
 const styles = {
   img: {
     width: "50%",
-    marginTop: "120px",
-    marginBottom: "60px",
+    marginTop: "12%",
+    marginBottom: "1%",
     borderRadius: '20px 20px 20px 20px',
     boxShadow: "0px 0px 24px 2px #737373",
     padding: "10px",
@@ -18,6 +18,8 @@ const styles = {
     flexWrap: "wrap",
     backgroundColor: "#0D0D0D",
     color: "white",
+    fontFamily: "Courier New",
+    paddingBottom: "3%"
 }
 }
 
