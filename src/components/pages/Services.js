@@ -9,6 +9,9 @@ const styles = {
       display: "inline-flex",
       flexWrap: "wrap",
       backgroundColor: "#0D0D0D",
+      textDecoration: "none",
+      paddingTop: "50px",
+      paddingBottom: "50px",
       
     },
     img: {
@@ -42,7 +45,7 @@ export default function Services() {
           <div style={styles.img}>
 <img style={styles.img} src={require(`../../images/IMG_7820.jpg`).default}/>
 </div>
-            <ul  className="list-group">
+            <ul style={{"textDecoration": "none"}} className="list-group">
   <li style={styles.box} className="list-group-item d-flex justify-content-between align-items-center">
     Women Haircut
     <span className="badge bg-primary rounded-pill"> $42</span>
@@ -96,10 +99,6 @@ export default function Services() {
     <span className="badge bg-primary rounded-pill"> $50</span>
   </li>
 </ul>
-<div style={styles.img}>
-<img style={styles.img} src={require(`../../images/IMG_7820.jpg`).default}/>
-</div>
-
 <div style={styles.img}>
 <img style={styles.img} src={require(`../../images/IMG_7820.jpg`).default}/>
 </div>

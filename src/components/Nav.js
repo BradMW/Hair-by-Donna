@@ -7,14 +7,15 @@ const styles = {
     flexWrap: "wrap",
     justifyContent: "space-evenly",
     alignItems: "center",
-    fontSize: "25px",
+    fontSize: "30px",
     backgroundColor: "#2198A6",
     position: "fixed",
     width: "100%",
     height: "6rem",
     top: "0",
     zIndex: "1",
-    listStyle: "none"
+    listStyle: "none",
+    fontFamily: "Courier New"
   },
   tabsTxt: {
     color: "#F2F2F2",

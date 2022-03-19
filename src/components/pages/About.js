@@ -13,7 +13,7 @@ const styles = {
     img: {
         maxHeight: "600px",
         paddingRight: "10px",
-        margin: "10px",
+        margin: "3%",
         borderRadius: '20px 20px 20px 20px',
         boxShadow: "0px 0px 24px 2px #737373",
         padding: "10px",
@@ -22,21 +22,21 @@ const styles = {
     title: {
         
         fontSize: "20px",
-        marginTop: "110px",
+        marginTop: "20%",
         color: "#F2F2F2",
         paddingLeft: "16rem",
+        fontFamily: "Courier New",
         paddingTop: "8px"
     },
     txt: {
         gridColumn: "2/3",
         gridRow: "1/3",
-        fontSize: "30px",
-        // marginTop: "100px",
+        fontSize: "25px",
         color: "#F2F2F2",
         textAlign:"left",
-        paddingRight: "10px",
-        paddingTop: "15rem",
-        textShadow: "10px, 10px, blue"
+        paddingTop: "25%",
+        paddingRight: "2%",
+        fontFamily: "Courier New",
     }
 }
 
