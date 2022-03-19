@@ -2,10 +2,10 @@ import React from 'react';
 
 const styles = {
     card: {
-        padding: "50px",
-        marginTop: "30px",
+        padding: "8%",
+        // marginTop: "4%",
         justifyContent: "center",
-        display: "inline-flex",
+        display: "flex",
         flexWrap: "wrap",
         backgroundColor: "#0D0D0D"
         
